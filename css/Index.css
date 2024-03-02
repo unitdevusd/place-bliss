@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap");
+
+
+/* 整體內容區塊 */
+._content {
+  margin-bottom: 10rem;
+}
+
+.banner_img {
+  max-width: 100%;
+}
+
+/* 第一組內容區塊標題 「找馨安，最安心」 */
+.first_title_container {
+  display: flex;
+  align-items: center; /* 將元素垂直居中 */
+}
+
+.first_title_font::before {
+  content: "";
+  display: inline-block;
+  width: 100px; /* 調整線的寬度 */
+  height: 3px;
+  background-color: red;
+  margin-right: 30px; /* 距離標題的間距 */
+  margin-bottom: 11px;
+}
+
+.first_title_font {
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* 第一組內容的圖片 */
+
+
+/* 第二組內容區塊標題 「專業照服派遣」 */
+.second_title_container {
+  display: flex;
+  align-items: center; 
+  justify-content: end;
+}
+
+.second_title_font::before {
+  content: "";
+  display: inline-block;
+  width: 100px; /* 調整線的寬度 */
+  height: 3px;
+  background-color: red;
+  margin-right: 30px; /* 距離標題的間距 */
+  margin-bottom: 11px;
+}
+
+.second_title_font {
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* 第二組內容的圖片 */
+
+
+/* 第三組內容的圖片 */
+
+
+
+/* 第四組內容區塊標題 「暖心見證」 */
+.fourth_title_container {
+  display: flex;
+  align-items: center; /* 將元素垂直居中 */
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.fourth_title_font::before {
+  content: "";
+  display: inline-block;
+  width: 200px; 
+  height: 3px;
+  background-color: red;
+  margin-right: 30px; 
+  margin-bottom: 11px;
+}
+
+.fourth_title_font::after {
+  content: "";
+  display: inline-block;
+  width: 200px;
+  height: 3px;
+  background-color: red;
+  margin-left: 30px; 
+  margin-bottom: 11px;
+}
+
+.fourth_title_font {
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+
+/* 圖文互動的容器區塊 */
+.sweet_heart{
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+/* 互動圖文卡整體區塊 */
+._wrap {
+  max-width: 100%;
+  /* display: flex; */
+  /* margin: auto; */
+  align-items: center;
+}
+
+/* 三張互動圖文卡區塊 */
+._wrap ._item {
+  width: 370px;
+  margin: 15px;
+  text-align: center;
+  background-color: #fcfcfc;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+/* 互動圖文卡hover效果 Y軸上移*/
+._wrap ._item:hover {
+  transform: translateY(-50px);
+}
+
+/* 互動圖文卡hover偽元素效果 */ 
+._wrap ._item:hover .txt_area::before {
+  border-left: 185px solid #feb85d;
+  border-right: 185px solid #feb85d;
+}
+
+
+._wrap ._item:hover .txt_area {
+  background-image: linear-gradient(0deg, #fb8076, #feb85d);
+}
+
+._wrap ._item:hover h2 {
+  color: #fff;
+  border-bottom-color: #fcfcfc;
+}
+
+._wrap ._item:hover p {
+  color: #fff;
+}
+
+/* 互動圖文卡圖片 */
+._wrap ._item img {
+  width: 100%;
+  /* max-width: 100%; */
+  vertical-align: middle;
+}
+
+/* 互動圖文卡文字內容 */
+._wrap ._item .txt_area {
+  padding: 1.35rem;
+  position: relative;
+}
+
+._wrap ._item .txt_area::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0;
+  border-top: 60px solid transparent;
+  border-left: 185px solid #fcfcfc;
+  border-right: 185px solid #fcfcfc;
+  transform: translateY(-100%);
+}
+._wrap ._item .txt_area h2 {
+  border-bottom: 1px solid #888;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  transition: 0.25s;
+}
+._wrap ._item .txt_area p {
+  line-height: 1.5;
+  text-align: justify;
+  font-weight: 300;
+  transition: 0.25s;
+}
+/* 互動圖文卡的RWD設置 */
+@media screen and (max-width: 900px) {
+  ._wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
+
+
+/* 第四區塊「暖心見證」RWD */
+@media (max-width: 767px) {
+  .fourth_title_font::before {
+    content: "";
+    display: inline-block;
+    width: 100px; 
+    height: 3px;
+    background-color: red;
+    margin-right: 30px; 
+    margin-bottom: 11px;
+  }
+  
+  .fourth_title_font::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    margin-left: 30px; 
+    margin-bottom: 11px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -45,7 +45,7 @@ body {
 ._navsite {
     background: #FAF8F3 !important;
     padding: 0;
-    z-index: 1;
+    z-index: 1000;
 }
 
 /* 標題 */

@@ -441,12 +441,12 @@ figure._symptom figcaption p {
   margin: 0 0 5px;
 }
 figure._symptom figcaption h3 {
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
 figure._symptom figcaption h3 span {
-  font-weight: 700;
+  font-weight: 400;
 }
 figure._symptom figcaption p {
   opacity: 0.8;

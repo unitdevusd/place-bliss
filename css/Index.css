@@ -27,21 +27,23 @@
   display: inline-block;
   width: 100px; 
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-right: 30px; 
   margin-bottom: 11px;
 }
 
 .first_title_font {
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Noto Sans TC", sans-serif;
 }
 
 
 
 /* 第一組內容的圖片 */
-
-
+.img_feed {
+  border-radius: 50px;
+  box-shadow: 3px 3px 12px gray;padding:3px;
+}
 
 /* 第一組內容的文字 */
 .protxt_padding {
@@ -59,6 +61,7 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .caretxt_padding {
@@ -76,13 +79,14 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 
 
 
 /* 第二組內容區塊標題 「專業照服派遣」 */
 .second_title_mg {
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 .second_title_container {
@@ -96,16 +100,21 @@
   display: inline-block;
   width: 100px; 
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-right: 30px; 
   margin-bottom: 11px;
 }
 
 .second_title_font {
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Noto Sans TC", sans-serif;
 }
 
+/* 第二組內容的圖片 */
+.img_help {
+  border-radius: 50px;
+  box-shadow: 3px 3px 12px gray;padding:3px;
+}
 
 /* 第二組內容的文字 */
 .patiencetxt_padding {
@@ -123,6 +132,7 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .securetxt_padding {
@@ -140,13 +150,14 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 
 
 
 /* 第三組內容區塊標題 「與馨安有有效溝通」 */
 .third_title_mg {
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 .third_title_container {
@@ -159,18 +170,18 @@
   display: inline-block;
   width: 100px; 
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-right: 30px; /* 距離標題的間距 */
   margin-bottom: 11px;
 }
 
 .third_title_font {
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Noto Sans TC", sans-serif;
 }
 
 .effitxt_padding {
-  padding: 20px 0 0 100px;
+  padding: 15px 0 0 100px;
 }
 
 ._efficiency {
@@ -184,10 +195,11 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .commutxt_padding {
-  padding: 20px 0 0 100px;
+  padding: 15px 0 0 100px;
 }
 
 ._communication {
@@ -201,9 +213,13 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 /* 第三組內容的圖片 */
-
+.img_blood {
+  border-radius: 50px;
+  box-shadow: 3px 3px 12px gray;padding:3px;
+}
 
 
 
@@ -212,7 +228,7 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 .fourth_title_font::before {
@@ -220,7 +236,7 @@
   display: inline-block;
   width: 200px; 
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-right: 30px; 
   margin-bottom: 11px;
 }
@@ -230,13 +246,13 @@
   display: inline-block;
   width: 200px;
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-left: 30px; 
   margin-bottom: 11px;
 }
 
 .fourth_title_font {
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Noto Sans TC", sans-serif;
 }
 
@@ -264,7 +280,8 @@
   transform: translateY(0px);
   transition: 0.5s;
   border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  box-shadow: 3px 3px 12px gray; 
 }
 
 /* 互動圖文卡hover效果 Y軸上移*/
@@ -339,7 +356,7 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 .fifth_title_font::before {
@@ -347,7 +364,7 @@
   display: inline-block;
   width: 200px; 
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-right: 30px; 
   margin-bottom: 11px;
 }
@@ -357,13 +374,13 @@
   display: inline-block;
   width: 200px;
   height: 3px;
-  background-color: red;
+  background-color: #DDABA0;
   margin-left: 30px; 
   margin-bottom: 11px;
 }
 
 .fifth_title_font {
-  font-weight: bold;
+  font-weight: 500;
   font-family: "Noto Sans TC", sans-serif;
 }
 
@@ -380,7 +397,7 @@ figure._symptom {
   overflow: hidden;
   margin: 10px;
   /* min-width: 500px; */
-  max-width: 100%;
+  /* max-width: 100%; */
   /* width: 100%; */
   background: #000000;
   text-align: left;
@@ -449,7 +466,15 @@ figure._symptom.hover img {
 }
 
 /* ----------------- RWD ----------------- */
-
+@media (min-width:900px) {
+  /* 寬度大於900時，圖往內縮3rem */
+  ._pdl {
+    padding-left: 3rem;
+  }
+  ._pdr {
+    padding-right: 3rem;
+  }
+}
 
 /* 互動圖文卡的RWD設置 */
 @media screen and (max-width: 900px) {
@@ -472,12 +497,17 @@ figure._symptom.hover img {
   }
 
   /* 第二區塊「專業派遣服務」RWD */
+  .second_title_container {
+    justify-content: start;
+  }
   .patiencetxt_padding {
     padding: 30px 0 0 0;
   }
   .securetxt_padding {
     padding: 30px 0 0 0;
   }
+
+  
 
   /* 第三區塊「與馨安的有效溝通 */
   .effitxt_padding {
@@ -501,7 +531,7 @@ figure._symptom.hover img {
     display: inline-block;
     width: 100px; 
     height: 3px;
-    background-color: red;
+    background-color: #DDABA0;
     margin-right: 30px; 
     margin-bottom: 11px;
   }
@@ -511,7 +541,7 @@ figure._symptom.hover img {
     display: inline-block;
     width: 100px;
     height: 3px;
-    background-color: red;
+    background-color: #DDABA0;
     margin-left: 30px; 
     margin-bottom: 11px;
   }
@@ -528,7 +558,7 @@ figure._symptom.hover img {
     display: inline-block;
     width: 75px; 
     height: 3px;
-    background-color: red;
+    background-color: #DDABA0;
     margin-right: 10px; 
     margin-bottom: 11px;
   }
@@ -538,7 +568,7 @@ figure._symptom.hover img {
     display: inline-block;
     width: 75px;
     height: 3px;
-    background-color: red;
+    background-color: #DDABA0;
     margin-left: 10px; 
     margin-bottom: 11px;
   }

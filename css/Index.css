@@ -424,7 +424,7 @@ figure._symptom img:first-of-type {
 }
 figure._symptom img:nth-of-type(2) {
   position: absolute;
-  bottom: 95%;
+  bottom: 100%;
   left: 0;
   z-index: 1;
 }
@@ -461,8 +461,8 @@ figure._symptom a {
 }
 figure._symptom:hover img,
 figure._symptom.hover img {
-  -webkit-transform: translateY(95%);
-  transform: translateY(95%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
 }
 
 /* ----------------- RWD ----------------- */

@@ -6,18 +6,6 @@ body {
     padding: 0;
 }
 
-.wrapper {
-    min-height: 100%;
-    /*外層高度100%*/
-    margin-bottom: 0px;
-    /*隨footer高度需做調整*/
-}
-
-.content {
-    padding-bottom: 50px;
-    /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
-}
-
 a,
 a:hover {
     text-decoration: none !important;
@@ -56,10 +44,6 @@ body {
     margin-left: -25%;
 }
 
-/* .logo_title {
-    padding: 0;
-} */
-
 /* 頁首的選單 */
 .list_font ul>li {
     font-size: 1.2rem;
@@ -90,7 +74,8 @@ body {
     transition: 0.3s ease;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover,
+.link_item {
     font-weight: bold;
 }
 
